@@ -249,3 +249,6 @@ footer{
     background-color: #256930;
     color: white;
 }
+.footer-logo p{
+    cursor: pointer;
+}
