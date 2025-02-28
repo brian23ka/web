@@ -1,0 +1,252 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color:whitesmoke;
+    max-width: 100vw;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: white;
+    box-shadow:0px 0px 10px rgba(0,0,0,0.1);
+}
+.logo img{
+    height:100px; 
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+   
+}
+nav ul li {
+    display: inline;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.5s;
+    
+}
+nav ul li a:hover{
+    background-color: #8d5e5e;
+    color: white;
+}
+/* hero */
+.hero{
+    background-image: url(./images/stadium\ 1.webp);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+    border-radius: 2%;
+  ;
+}
+.hero h1{
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+.hero p{
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+.hero a{
+    padding: 10px 20px;
+    background-color: #8d5e5e;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.hero a:hover{
+    background-color: #256930;
+    color:beige;
+}
+/* news section */
+.news{
+    padding: 20px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+.news h2{
+    font-size: 2em;
+    color: #ef0107;
+    cursor: pointer;
+}
+.container1{
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+}
+.container1 img{
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+}
+.highlight{
+    background-color: #ecd6d6;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
+    /* text-align: left; */
+}
+.highlight h3{
+    font-size: 1.5em;
+    color: #ef0107;
+}
+.highlight p{
+    font-size: 1em;
+    color: black;
+}
+/*  fixtures */
+.fixtures{
+    padding: 20px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+.fixtures h2{
+    font-size: 2em;
+    color: #ef0107;
+    cursor: pointer;
+}
+.fixtures table{
+    width: 50%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+.fixtures table th{
+    background-color: #ef0107;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.fixtures table td{
+    padding: 10px 20px;
+    border-bottom: 1px solid #ef0107;
+    border-left: 1px solid #ef0107;
+    border-right: 1px solid #ef0107;
+}
+.fixtures table tr:hover{
+    background-color: #ecd6d6;
+    cursor: pointer;
+}
+/*  players */
+.players{
+    padding: 20px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+.players h2{
+    font-size: 2em;
+    color: #ef0107;
+    cursor: pointer;
+}
+.list{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top:20px
+    
+}
+.player img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
+}
+.player{
+    width: 200px;
+}
+.search{
+    margin-top: 20px;
+}
+.search input{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #ef0107;
+    cursor: pointer;
+    outline: none;
+}
+.search button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #ef0107;
+    background-color: #ef0107;
+    color: white;
+    cursor: pointer;
+    transition: 0.5s
+}
+.search button:hover{
+    background-color: #8d5e5e;
+}
+/* footer */
+footer{
+    background-color: #ef0107;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    /* display: flex; */
+}
+.footer-logo img{
+    height: 50px;
+    float: left;
+}
+.footer-nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    /* text-decoration: none; */
+}
+.footer-nav ul li{
+    display: inline;
+    /* text-decoration: none; */
+}
+.footer-nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding:10px ,20px;
+    border-radius: 5px;
+    transition: 0.5s;
+    font-size: small;
+}
+.footer-nav ul li a:hover{
+    color: #ffffff;
+    background: #000000;
+}
+.footer-social{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 20px;
+}
+.footer-social ul{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.footer-social ul li{
+    display: inline;
+}
+.footer-social a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 50%;
+    background-color: #8d5e5e;
+    transition: 0.5s;
+}
+.footer-social a:hover{
+    background-color: #256930;
+    color: white;
+}
+.
